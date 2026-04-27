@@ -50,3 +50,33 @@ saldo %= 3 # saldo = saldo % 3
 print (saldo) # Imprime o novo saldo
 saldo //= 2 # saldo = saldo // 2
 print (saldo) # Imprime o novo saldo
+
+"""Operadores Lógicos
+"""
+True and True # Retorna True
+True and False # Retorna False
+False and False # Retorna False
+True or True # Retorna True
+True or False # Retorna True
+False or False # Retorna False
+not True # Retorna False
+not False # Retorna True
+print (x > 5 and y < 10) # operador AND
+print (x > 5 or y < 10) # operador OR
+print (not (x > 5)) # operador NOT
+
+"""Operadores de identidade
+"""
+a = [1, 2, 3]
+b = a
+print (a is b) # Retorna True, pois a e b referenciam o mesmo objeto
+c = [1, 2, 3]
+print (a is c) # Retorna False, pois a e c são objetos diferentes, mesmo que tenham o mesmo conteúdo
+print (a == c) # Retorna True, pois a e c têm o mesmo conteúdo
+
+"""Operadores de associação
+"""
+a = [1, 2, 3]
+print (1 in a) # Retorna True, pois 1 está no objeto a
+print (4 not in a) # Retorna True, pois 4 não está no objeto a
+
